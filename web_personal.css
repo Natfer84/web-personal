@@ -1,0 +1,548 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 5px;
+}
+
+.logo img {
+    height: 160px;
+    width: 160px;
+    border-radius: 10000px;
+    margin: 20px;
+}
+
+nav {
+    margin-top: 30px;
+}
+
+.contenedor_nav_inicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-right: 40px;
+    background-color: black;
+    font-weight: bold;
+    background-color: black;
+    font-weight: bold;
+    margin-left: 36px;
+}
+
+.contenedor_nav_inicio a {
+    color: white;
+    text-decoration: none;
+}
+
+.contenedor_nav_inicio a:hover {
+    color: #e9e334;
+    /*quiero que haga un saltitio al hacer hover*/
+}
+
+section {
+    width: 600px;
+    margin: 60px auto;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.biografia {
+    color: white;
+    margin: 0px 100px 0px 0px;
+    max-width: 100%;
+    /* quiero que salga de la izq a la derecha */
+}
+
+.biografia_2 {
+    color: white;
+    margin: 0px 0px 0px 100px;
+    max-width: 100%;
+    padding: 5px;
+    /* quiero que salga de de derecha a izq y se junten en el medio */
+}
+
+footer {
+    position: relative;
+}
+
+footer img {
+    position: absolute;
+    right: 0px;
+    top: 41px;
+    left: 0px;
+    width: 100%;
+    height: 479px;
+}
+
+
+/*AQUÍ EMPIEZA BIOGRAFÍA*/
+
+.bio a:hover {
+    color: #e9e334;
+    /*quiero que haga un saltitio al hacer hover*/
+}
+
+.bio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 600px;
+    max-width: 100%;
+    margin: 20px auto;
+    justify-content: space-around;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+
+.bio a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.contenedor_2div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    overflow: auto;
+    width: 1000px;
+    max-width: 100%;
+
+}
+
+.imagen_iz {
+    background-image: url(https://cms.guggenheim-bilbao.eus/uploads/2023/06/a0125-copia-1-scaled-1-1920x2491.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 320px;
+    max-width: 100%;
+    background-position: 92% 77%;
+
+
+}
+
+.biografia_foto {
+    color: white;
+    width: 658px;
+    max-width: 100%;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+
+.letra {
+    text-orientation: sideways;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*AQUI EMPIEZA PORTFOLIO*/
+
+.contenedor_portfolio {
+    position: relative;
+    font-size: 1em;
+    display: flex;
+}
+
+.nav_punto_amarillo {
+    width: 70px;
+    height: 70px;
+    background-color: #e9e334;
+    position: absolute;
+    top: -4px;
+    left: 38px;
+    border-radius: 10000px;
+}
+
+.nav_punto_amarillo:hover {
+    position: absolute;
+    top: 0;
+    left: 281px;
+    transition: all (3s);
+}
+
+.punto_amarillo {
+    position: relative;
+}
+
+.contenedor_nav {
+    position: absolute;
+    top: -10px;
+    left: -242px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav a:hover {
+    color: #e9e334;
+}
+
+.nombre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 50px;
+    position: fixed;
+    /*top:60px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    font-size: 30px;*/
+}
+
+.letra {
+    font-size: 50px;
+}
+
+.cuerpo_portfolio {
+    /*position: absolute;
+    top:190px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin: 140px auto;
+    margin-left: 100px;
+    max-width: 100%;
+    margin-right: 100px;
+    width: 1500px;
+}
+
+.foto1 {
+    width: 200px;
+    height: 200px;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/works-by-yayoi-kusama-on-display-at-the-yayoi-kusama-news-photo-1705398058.jpg?crop=1xw:1xh;center,top&resize=980:*);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10000px;
+}
+
+.foto2 {
+    width: 200px;
+    height: 200px;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/japanese-artist-yayoi-kusamas-work-called-dots-obsession-news-photo-1660203175.jpg?crop=1xw:1xh;center,top&resize=980:*);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10000px;
+}
+
+.foto3 {
+    width: 200px;
+    height: 200px;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/person-looks-at-the-art-of-yayoi-kusama-narcissus-garden-news-photo-1675785966.jpg?crop=1xw:1xh;center,top&resize=980:*);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10000px;
+}
+
+.foto4 {
+    width: 200px;
+    height: 200px;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/an-employee-looks-at-the-sculpture-a-bouquet-of-love-i-saw-news-photo-1660204204.jpg?crop=1xw:1xh;center,top&resize=980:*);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10000px;
+}
+
+.foto5 {
+    width: 200px;
+    height: 200px;
+    background-image: url(https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2023/06/14/6489c326965b5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10000px;
+}
+
+.foto6 {
+    width: 200px;
+    height: 200px;
+    background-image: url(https://winegogh.es/wp-content/uploads/2023/07/5-13-1024x683.jpeg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10000px;
+}
+
+.texto {
+
+    max-width: 100%;
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 16px;
+    margin-left: 20px;
+    width: 200px;
+}
+
+.texto_fuera {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 50px;
+
+}
+
+p {
+    margin: 0px;
+}
+
+/*AQUÍ EMPIEZA CONTACTO*/
+
+form {
+    margin: 50px;
+}
+
+.contenedor_form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+    box-shadow: 0px 0px 15px 7px #f1c856;
+    border-radius: 40px;
+    width: 700px;
+    max-width: 100%;
+    padding: 10px;
+    position: relative;
+}
+
+.nya {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 20px;
+}
+
+.contenedorNombreApellido {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    color: white;
+}
+
+input {
+    color: black;
+    height: 40px;
+    border-radius: 15px;
+    box-shadow: inset 0px 0px 8px 1px rgb(173, 170, 170);
+    padding: 10px;
+
+}
+
+.correo {
+    margin-top: 50px;
+    display: inline-block;
+    width: 100%;
+}
+
+.correo input {
+    display: inline-block;
+    width: 100%;
+}
+
+.correo label {
+    padding-bottom: 10px;
+}
+
+.enviar {
+    margin-top: 30px;
+}
+
+.contenedor_2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e9e334;
+    width: 800px;
+    max-width: 100%;
+    margin: 110px auto;
+}
+
+.enviar {
+    text-align: center;
+    padding: 50px;
+}
+
+.enviar input {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+label {
+    display: inline-block;
+    width: 60px;
+}
+
+.pelota1 {
+    width: 50px;
+    height: 50px;
+    background-color: #e9e334;
+    border-radius: 10000px;
+    box-shadow: 0px 0px 11px 3px #e9e334;
+    position: absolute;
+    top: -23px;
+    right: 26px;
+    z-index: 0;
+
+}
+
+.pelota1_bis {
+    width: 50px;
+    height: 50px;
+    background-color: #e9e334;
+    border-radius: 10000px;
+    box-shadow: 0px 0px 11px 3px rgb(0, 0, 0);
+    position: absolute;
+    top: -23px;
+    right: 26px;
+    z-index: 0;
+}
+
+.pelota2 {
+    width: 30px;
+    height: 30px;
+    background-color: #e9e334;
+    border-radius: 10000px;
+    box-shadow: 4px 6px 15px 8px black;
+    position: absolute;
+    top: 78px;
+    right: -14px;
+
+
+}
+
+.pelota2_bis {
+    width: 30px;
+    height: 30px;
+    background-color: #e9e334;
+    border-radius: 10000px;
+    box-shadow: -2px 3px 12px 4px #e9e334;
+    position: absolute;
+    top: 78px;
+    right: -14px;
+}
+
+.pelota3 {
+    width: 40px;
+    height: 40px;
+    background-color: #e9e334;
+    border-radius: 10000px;
+    box-shadow: 0px 0px 15px 7px black;
+    position: absolute;
+    right: 23px;
+    bottom: -13px;
+}
+
+.pelota4 {
+    width: 10px;
+    height: 10px;
+    background-color: #e9e334;
+    border-radius: 10000px;
+    box-shadow: 1px 0px 30px 6px #e9e334;
+    position: absolute;
+    right: 75px;
+    bottom: 65px;
+}
+
+.pelota5 {
+    width: 20px;
+    height: 20px;
+    background-color: #e9e334;
+    border-radius: 10000px;
+    box-shadow: 3px 4px 32px 3px #e9e334;
+    position: absolute;
+    right: 26px;
+    bottom: 135px;
+}
+
+.contenedorRedes {
+    position: relative;
+}
+
+.redesSociales {
+    position: absolute;
+    bottom: -98px;
+    top: 21px;
+    border-top: 1px solid #e9e334;
+    border-image: linear-gradient(to bottom, #e9e334 0%, #e9e334 100%) 1;
+    display: inline;
+    width: 100%;
+    
+}
+
+.redes {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.redes img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+.copi{
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    right: 0px;
+    top:21px;
+}
